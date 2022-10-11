@@ -34,4 +34,5 @@ jobs:
         DB_DATABASE: laravel-curd
         DB_PORT: 3306
         DB_USER: root
+        DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
       run: vendor/bin/phpunit
